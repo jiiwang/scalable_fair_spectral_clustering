@@ -14,3 +14,6 @@
  ```
 
 Note that alg1.m, alg2.m, and part of m-SBM are credited to https://github.com/matthklein/fair_spectral_clustering
+
+Paper is accepted at the 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
+arXiv link https://arxiv.org/abs/2210.16435
