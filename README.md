@@ -17,7 +17,7 @@
 
 alg1.m, alg2.m, and part of m-SBM are credited to https://github.com/matthklein/fair_spectral_clustering
 
-Dataset: [Last.fm](http://snap.stanford.edu/data/feather-lastfm-social.html) | [FacebookNet](http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/)
+Real dataset: [Last.fm](http://snap.stanford.edu/data/feather-lastfm-social.html) | [FacebookNet](http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/)
 
 Paper is accepted at the 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
 proceedings available at https://proceedings.mlr.press/v206/wang23h.html
