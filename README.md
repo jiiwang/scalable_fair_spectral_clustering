@@ -1,7 +1,7 @@
 ## code repository for scalable spectral clustering with group fairness constraints
 
 ### code structure
-```matlab
+```
 -- src
  -- alg1.m: SC 
  -- alg2.m: FairSC
