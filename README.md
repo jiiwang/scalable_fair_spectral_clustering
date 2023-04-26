@@ -1,19 +1,22 @@
-# MATLAB scripts for scalable spectral clustering with group fairness constraints
+## code repository for scalable spectral clustering with group fairness constraints
 
-## code structure
+### code structure
 ```
 -- src
  -- alg1.m: SC 
  -- alg2.m: FairSC
  -- alg3.m: s-FairSC
- -- ...
+ -- Afun.m: spmv function to eig in alg3.m
+ -- Afun2.m: spmv function to eig in alg1.m and alg2.m
 -- test
- -- m-SBM: m-SBM experiment
- -- friendship: FacebookNet experiment
- -- ranLap: random Laplacian experiment
+ -- m-SBM: experiment on the Modified Stochastic Block Model 
+ -- lastfm: experiment on Last.fm dataset. Data from  http://snap.stanford.edu/data/feather- l
+astfm-social.html 
+ -- friendship: experiment on FacebookNet dataset. Data from http://www.sociopatterns.org/datasets/h igh-school-contact-and-friendship-networks/
+ -- ranLap: experiment on random Laplacian
  ```
 
-Note that alg1.m, alg2.m, and part of m-SBM are credited to https://github.com/matthklein/fair_spectral_clustering
+alg1.m, alg2.m, and part of m-SBM are credited to https://github.com/matthklein/fair_spectral_clustering
 
 Paper is accepted at the 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
-arXiv link https://arxiv.org/abs/2210.16435
+proceedings available at https://proceedings.mlr.press/v206/wang23h.html
